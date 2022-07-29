@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around
+}
+
+.add-teacher {
+  width: 180px;
+  text-align: left;
+}
+
+.add-teacher .error {
+  color: red;
+}
+
+.form div{
+  margin-bottom: 20px;
+}
+
+.form input, 
+.form select,
+.form button{
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.form button {
+  background-color: #8A8A8A;
+  border: none;
+  font-size: 18px;
+}
+
+.dashboard {
+  max-width: 500px;
+  width: 50%;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between
+}
+
+.teacher {
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px 5px;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align:left
+}
